@@ -1,0 +1,165 @@
+index.html
+<div class="Com">
+            <div class="Com_sub">mmm</div>
+            <div class="Com_sub2">Community</div>
+            <div class="Com_word">
+            <div class="Menu">
+            <ul class="Community">
+            <li>
+                <img src="images/com01.jpg" alt="">
+                <div class="com_nm">
+                <h3>'스물 다섯 스물 하나' 김태리 "수많은 고통과<br> 스트레스,종교적인 느낌으로 감사" </h3>
+                <p>배우 김태리는 영화나 드라마의 홍보차 몇번 팬<br> 들과라이브방송을 진행한 적이 있다 ....</p>
+                <p>2022.04.13</p>
+            </div>
+                <img src="images/com05.jpg"width="337"height="506"alt="">
+                <div class="com_nm">
+                <h3>전여빈, 한국판 '상견니' 주연 발탁...1인 2역 <br>도전 [공식] </h3>
+                <p>배우 전여빈이 넷플릭스 시리지 ' 너의 시간 속<br>으로'캐스팅을 확정 지었다. ...</p>
+                <p>2022.03.31</p>
+            </div>
+            </li>
+
+            <li><img src="images/com02.jpg"width="337"height="506"alt="">
+                <div class="com_nm">
+                <h3>안재홍, '리바운드' 주연 캐스팅 … 농구감독 <br> 변신한 </h3>
+                <p>배우 안재홍이 영화 '리바운드'에 캐스팅됐다. ...</p>
+                <p>2022.02.08</p>
+            </div>
+                <img src="images/com06.jpg"width="337"height="225"alt="">
+                <div class="com_nm">
+                <h3>이재인·유아인·안재홍·라미란·김희원 '하이<br>파이브'크랭크업…5人 초능력자 '앙상블'</h3>
+                <p>강형철 감독과 초특급 대세 배우들의 만남으로 기<br>대를 모은영화 '하이파이브'가 지난 7일 크랭크업<br> 했다. ...</p>
+                <p>2021.11.11</p>
+            </div>
+            </li>
+
+            <li><img src="images/com03.jpg"width="337"height="339"alt="">
+                <div class="com_nm">
+                <h3>홍경, 화보 비하인드...한층 물오른 비주얼</h3>
+                <p>홍경의 특별한 화보 촬영 현장이 공개됐다, ...</p>
+                <p>2022.01.14</p>
+            </div>
+                <img src="images/com07.jpg"width="337"height="468"alt="">
+                <div class="com_nm">
+                <h3>김태리, 33살에도 스물하나 같아[화보]</h3>
+                <p>배우 김태리(33)가 화보를 통해 매력을 전했다.</p>
+                <p>2022.04.07</p>
+            </div>
+            </li>
+
+                <li><img src="images/com04.jpg"width="337"height="397"alt="">
+                <div class="com_nm">
+                <h3>제10회 무주산골영화제 넥스트 액터 배우 <br>전여빈 선정</h3>
+                <p>제10회 무주산골영화제가 넥스트 액터로 배우 <br> 전여빈을선정했다. ...</p>
+                <p>2022.03.07</p>
+            </div>
+                <img src="images/com08.jpg"width="337"height="468"alt="">
+                <div class="com_nm">
+                <h3>‘우리들’ 최수인, 김태리 전여빈 소속사와 <br>전속계약 체결(공식)</h3>
+                <p>배우 최수인이 매니지먼트mmm과 전속계약을 체결
+                <br>했다.</p>
+                <p>2021.09.03</p>
+            </div>
+            </li>
+            </ul>
+                
+            </div>
+            </div>
+            </div>
+            <div class="Aud">
+                <div class="Aud_sub">mmm</div>
+                <div class="Aud_sub2">AUDITION</div>
+                <div class="Aud_sub3">매니지먼트mmm은</div>
+                <div class="Aud_sub4">연기자 분야의 재능있는 신인을 모집합니다.</div>
+                <img src="./images/Audition.png" alt="">
+                <div class="Aud_sub5">제출서류</div>
+            <div class="Aud_sub6">
+                <ul>
+                    <li>오디션 지원서</li>
+                    <li>개인 프로필(전신,클로즈업 이미지 각 1장)</li>
+                    <li>30초 내외 자기 소개 영상</li>
+                </ul>
+            </div>
+            <div class="btn"><a href="#">오디션 지원하기</a></div>
+        </div>
+        
+        
+        
+        style.css
+        #contents .Community{
+    margin: 0 auto;
+}
+#contents .Community li{
+    float: left;
+    box-sizing: border-box;
+    margin-right: 43px;
+    margin-top: 20px;
+    
+}
+#contents .Community img{margin-top: 42px;}
+#contents .Community li:last-child{margin-right: 0;}
+
+#contents .Community h3{margin:0 0 0 27px;color: #000;font-size: 15px;
+}
+
+#contents .Community p{margin: 47px 0 0 27px; color: #000; font-size: 13px;
+} 
+#contents .Community li .com_nm{  padding:0 0 20px 0;margin-bottom: 20px;
+background-color: white;}
+
+#contents .Aud{
+    margin: 0 auto;
+    margin-top: 80px;
+    width: 1111px; height: 1000px;
+}
+#contents .Aud_sub{
+    margin:50px 0 0 40%;
+    font-size: 35px;
+    color: #333;
+    font-family: '궁서체';
+}
+#contents .Aud_sub2{
+    margin: -15px 0 0 40%;
+    font-size: 60px;
+    color: #000;
+    font-family: '궁서체';
+}
+#contents .Aud_sub3{
+    margin:80px 0 0 43%;
+    font-size: 20px;
+    color: #000;
+}
+#contents .Aud_sub4{    
+    margin:0 0 0 33%;
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 70px;
+}
+
+#contents .Aud_sub5{    
+    margin:20px 0 0 42%;
+    font-size: 50px;
+    color: #000;
+    font-weight: bolder;
+}
+#contents .Aud_sub6{    
+    margin-top: 80px; 
+    font-size: 30px;
+    color: #000;
+    font-weight: bolder;
+    padding-left: 300px;
+}
+#contents .Aud_sub6 li:first-child{padding-left: 170px;}
+#contents .Aud_sub6 li:last-child{padding-left: 100px;}
+#contents .Aud .btn a{
+    position: absolute;
+    font-size: 20px;
+    margin-top: 100px;
+    font-weight: bolder;
+    border:1px solid #000;
+    width: 215px; height: 59px;
+    line-height: 59px;
+    text-align: center;
+    margin-left: 24%;
+}
